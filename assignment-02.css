@@ -1,0 +1,76 @@
+*{
+    font-family: Orbitron;
+}
+
+.button{
+    position: relative;
+}
+.gButton {
+    position:absolute;
+    width:130px;
+    height:130px;
+    border: 10px;
+    border-color: black;
+    border-radius:50%;
+    border-style: solid;
+}
+.gButton:active {
+  opacity: .5;
+}
+.activated {
+  opacity: .5;
+}
+#green {
+    top: 50%;
+    left: 50%;
+    background-color:green;
+    margin: -175px 0px 0px -175px;
+}
+#red {
+    top: 50%;
+    right: 50%;
+    background-color:red;
+    margin: -175px -175px 0px 0px;
+}
+#yellow {
+    bottom: 50%;
+    left: 50%;
+    background-color:yellow;
+    margin: 0px 0px -175px -175px;
+}
+#blue {
+    bottom: 50%;
+    right: 50%;
+    background-color:blue;
+    margin: 0px -175px -175px 0px;
+}
+#center {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background-color: black;
+    border: 3px solid grey;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+#items{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -15px;
+    margin-left: -70px;
+}
+#status {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: 25px;
+    margin-left: -3px;
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background-color:red;
+}

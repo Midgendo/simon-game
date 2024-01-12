@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simon Game</title>
+        <link rel='stylesheet' href='./assignment-02.css'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Orbitron'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="center">
+            <div id="items">
+                <button id="highScore">00</button>
+                <button id="start" onclick="begin()">START</button>
+                <button id="level">00</button>
+            </div>
+            <div id="status"></div>
+        </div>
+        <div id="green" class="gButton" onclick="green()"></div>
+        <div id="red" class="gButton" onclick="red()"></div>
+        <div id="yellow" class="gButton" onclick="yellow()"></div>
+        <div id="blue" class="gButton" onclick="blue()"></div>
+        <script src="./assignment-02.js"></script>
+    </body>
+</html>
